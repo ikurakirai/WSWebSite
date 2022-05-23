@@ -1,0 +1,413 @@
+body{
+    background-image: url("images/Web背景のコピー.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "筑紫A丸ゴシック";
+    margin: 0px;
+}
+
+
+.bonerimage{
+    background-image: url("images/バナー.png");
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.introduce_WS{
+    font-size: 60px;
+    text-align: left;
+    color: #504846;
+    list-style: none;
+    margin-right: 300px;
+    margin-left: 0px;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+.link{
+   display: inline;
+   font-size: 30px;
+   list-style: none;
+   padding-top: 50px;
+   margin: 20px;
+} 
+
+
+.link{
+    text-decoration: none;
+    color: #504846;
+    font-size: 40px;
+}
+
+.topphoto{
+    text-align: center;
+}
+
+.photo1{
+    width: 50%;
+    height: 20%;
+}
+
+.photo2{
+    width: 25%;
+    height: 350px;
+}
+
+.titleicon1{
+    margin-left: 23%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.minititle{
+    font-size: 50px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.introduce{
+    color: #504846;
+}
+
+.introphoto1{
+    width: 20%;
+    float: left;
+    margin-left: 25%;
+}
+
+.introtext1{
+    font-size: 120%;
+}
+
+.introphoto2{
+    width: 20%;
+    float: right;
+    margin-right: 25%;
+}
+
+.introtext2{
+    font-size: 120%;
+    margin-left: 25%;
+}
+
+.minititle2{
+    font-size: 70px;
+    color: #D1D822;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.flowtext{
+    text-align: center;
+    color: #504846;
+    font-size: 150%;
+}
+
+.flowline{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.flowstart{
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+
+/* 
+.YesA{
+    width: 100px;
+    height: 75px;
+} 
+*/
+
+/*
+ .rightarrow{
+    margin-left: 20%;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+} 
+*/
+
+.Q1{
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+
+/*
+ .leftarrow{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+} 
+*/
+
+.Q2{
+    margin-left: 23%;
+    width: 25%;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.Q3{
+    width: 25%;
+    height: 250px;
+}
+
+.Choice2nd{
+    margin-top: 15px;
+    margin-left: 26%;
+    width: 10%;
+    height: 200px;
+}
+
+.Choice3rd{
+    margin-top: 15px;
+    width: 10%;
+    height: 200px;
+    margin-left: 130px;
+}
+
+.Choice4th{
+    margin-top: 15px;
+    width: 10%;
+    height: 200px;
+    margin-left: -10px;
+}
+
+.AnswerBlock{
+    display: inline;
+    margin-left: 21%;
+    position: relative;
+}
+
+
+/* 
+.CA{
+    position: absolute;
+    color: #D1D822;
+    top: 25%;
+    left: 25%;
+}
+
+.CB{
+    position: absolute;
+    color: #D1D822;
+}
+
+.CC{
+    position: absolute;
+    color: #D1D822;
+}
+
+.CD{
+    position: absolute;
+    color: #D1D822;
+} 
+*/
+
+.sizeBoxA{
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.sizeBoxA:hover{
+    transform: scale(1.2);
+}
+
+.sizeBoxB{
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.sizeBoxB:hover{
+    transform: scale(1.2);
+}
+
+.sizeBoxC{
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.sizeBoxC:hover{
+    transform: scale(1.2);
+}
+
+.sizeBoxD{
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.sizeBoxD:hover{
+    transform: scale(1.2);
+}
+
+.explanation{
+    color: #504846;
+    margin-top: 200px;
+}
+
+.you{
+    margin-top: 200px;
+}
+
+.pointA{
+    text-align: center;
+}
+
+.minititle3{
+    text-align: left;
+    font-size: 50px;
+    color: #56B879;
+    display: inline-block;
+}
+
+.minititle4{
+    font-size: 45px;
+    text-align: center;
+}
+
+.exptext{
+    font-size: 120%;
+}
+
+.Aphoto{
+    margin-top: 50px;
+}
+
+.icon1{
+   margin-left: 25%;
+}
+
+.photo4{
+    width: 400px;
+    height: 300px;
+}
+
+.icon2{
+    margin-left: 45%;
+}
+
+.photo5{
+    width: 400px;
+    height: 300px;
+}
+
+.rechoice{
+    text-align: center;
+    font-size: 110%;
+    margin-top: 50px;
+}
+
+.rechoice a{
+    color: #504846;
+}
+
+/* .pointB{
+    text-align: center;
+} */
+
+.minititle5{
+    font-size: 40px;
+    text-align: center;
+    color: #504846;
+    /* margin-left: 30%; */
+}
+
+.exptext{
+    text-align: center;
+    color: #504846;
+}
+
+.Sampleicon{
+    margin-left: 30%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.Sampletitle{
+    font-size: 30px;
+    display: inline-block;
+    color: #504846;
+}
+
+.Sampleimage{
+    vertical-align: middle;
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    margin-left: 30%;
+}
+
+.SampleURL{
+    display: inline-block;
+    font-size: 150%;
+}
+
+.SampleURL a{
+    color: #56B879;
+}
+
+/* .pointC{
+    text-align: center;
+} */
+
+/* .minititle6{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 24%;
+} */
+
+.pointD{
+    text-align: center;
+}
+
+.icon3{
+    margin-left: 25%;
+}
+
+.photo6{
+    width: 400px;
+    height: 300px;
+}
+
+.icon4{
+    margin-left: 45%;
+}
+
+.photo7{
+    width: 400px;
+    height: 300px;
+}
